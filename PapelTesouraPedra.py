@@ -39,18 +39,18 @@ while True:
             or (esc_player == "pedra") and (esc_cpu == "tesoura"):
         # O jogador ganha
         print(f"Você escolheu {esc_player} e a CPU escolheu {esc_cpu}"
-              ": Você ganhou!")
+              ": Vitória!")
         player_vitorias += 1
 
     elif esc_player == esc_cpu:
         # Empate
         print(f"Você escolheu {esc_player} e a CPU escolheu {esc_cpu}"
-              ": Deu empate!")
+              ": Empate!")
 
     else:
         # O jogador perdeu
         print(f"Você escolheu {esc_player} e a CPU escolheu {esc_cpu}"
-              ": Você perdeu!")
+              ": Derrota!")
         cpu_vitorias += 1
 
     print("-"*30)
